@@ -193,3 +193,51 @@ span a:after {
     background: black; 
     display:block;
 }
+
+/*-----------------------------------------------------------------------------------------*/
+/* FOOTER */
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto 5rem;
+}
+
+.footer__left {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.footer__author {
+    width: 130px;
+    height: 34px;
+    background-color: rgba(70, 153, 224, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.footer__left .nav__title {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    line-height: 37.71px;
+}
+
+.footer__right {
+    display: flex;
+    column-gap: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(70, 153, 224, 1);
+    width: 221px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__right p {
+    font-size: 0.9rem;
+    text-align: center;
+}
